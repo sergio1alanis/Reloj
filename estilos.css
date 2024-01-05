@@ -1,0 +1,10 @@
+section {
+    width: auto;
+    background-color: aliceblue;
+}
+
+#lienzo {
+    width: 400px;
+    height: 400px;
+    background-color: #4e0a0a;
+}
