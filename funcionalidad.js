@@ -2,9 +2,8 @@ function comenzar() {
     const canvas = document.getElementById("lienzo");
     const ctx = canvas.getContext("2d");
     let radius = canvas.height / 2;
-    ctx.translate(radius, radius);
+    ctx.translate(150, 75);
     radius = radius * 0.90
-        //setInterval(drawClock, 1000);
     setInterval(() => drawClock(ctx, radius), 1000);
 }
 
